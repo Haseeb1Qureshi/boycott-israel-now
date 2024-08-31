@@ -1,0 +1,939 @@
+[
+    {
+        "category": "Cosmetics",
+        "Alternatives": [
+            {
+                "alternativeName": "J.",
+                "alternativeImage": "assets/images/j..png"
+            },
+            {
+                "alternativeName": "Luscious Cosmetics",
+                "alternativeImage": "assets/images/Luscious Cosmetics.png"
+            },
+            {
+                "alternativeName": "Musarrat Misbah",
+                "alternativeImage":"assets/images/Musarrat Misbah.png"
+            },
+            {
+                "alternativeName":  "Rivaj",
+                "alternativeImage":"assets/images/Rivaj.png"
+            }
+        ],
+        "image": "assets/images/cosmetics.png",
+        "products": [
+            {
+"productName": "L'Oréal",
+"productImage": "assets/images/L'Oréal.png"
+            },
+            {
+"productName": "Revlon",
+"productImage":  "assets/images/Revlon.png"
+            },
+            {
+"productName": "Garnier",
+"productImage": "assets/images/Garnier.png"
+            },
+            {
+"productName": "Estee Lauder",
+"productImage": "assets/images/Estee Lauder.png"
+            },
+            {
+"productName": "Olay",
+"productImage":"assets/images/Olay.png"
+            }
+        ]
+    },
+    {
+        "category": "Restaurants",
+        "Alternatives":[
+            {
+                "alternativeName": "Burger Lab",
+                "alternativeImage": "assets/images/Burger Lab.png"
+            },
+            {
+                "alternativeName": "Johnny and Jugnu",
+                "alternativeImage":"assets/images/Johnny and Jugnu.png"
+            },
+            {
+                "alternativeName": "Smash Burger",
+                "alternativeImage":"assets/images/Smash Burger.png"
+            },
+            {
+                "alternativeName": "Howdy",
+                "alternativeImage":"assets/images/Howdy.png"
+            },
+            {
+                "alternativeName": "BRGR",
+                "alternativeImage":"assets/images/BRGR.png"
+            },
+            {
+                "alternativeName": "Sweet Creme",
+                "alternativeImage":"assets/images/Sweet Creme.png"
+            },
+            {
+                "alternativeName": "Daily Deli",
+                "alternativeImage":"assets/images/Daily Deli.png"
+            },
+            {
+             "alternativeName": "OPTP",
+             "alternativeImage":"assets/images/OPTP.png"   
+            } 
+        ],
+        "image": "assets/images/restaurants.png",
+        "products": [
+            {
+"productName": "KFC",
+"productImage": "assets/images/KFC.png"
+            },
+            {
+"productName": "McDonalds",
+"productImage":"assets/images/McDonals.png"
+            },
+            {
+"productName": "Hardees",
+"productImage": "assets/images/Hardees.png"
+            },
+            {
+"productName": "Pizza Hut",
+"productImage":"assets/images/Pizza Hut.png"
+            },
+            {
+"productName": "Subway",
+"productImage":"assets/images/Subway.png"
+            },
+            {
+"productName": "Burger King",
+"productImage":"assets/images/Burger King.png"
+            },
+            {
+"productName": "Baskin Robbins",
+"productImage":"assets/images/Baskin Robbins.png"
+            }
+        ]
+    },
+    {
+        "category": "Cold Drinks",
+        "Alternatives":[
+            {
+                "alternativeName": "Gourmet Cola",
+                "alternativeImage":"assets/images/Gourmet Cola.png"
+            },
+            {
+                "alternativeName": "Gourmet Lemon Up",
+                "alternativeImage":"assets/images/Gourmet Lemon Up.png"
+            },
+            {
+                "alternativeName": "Pakola",
+                "alternativeImage":"assets/images/Pakola.png" 
+            },
+            {
+                "alternativeName": "Next Cola",
+                "alternativeImage":"assets/images/Next Cola.png"
+            }
+        ],
+        "image": "assets/images/cold drinks.png",
+        "products": [
+            {
+"productName": "CocaCola",
+"productImage":"assets/images/CocaCola.png"
+            },
+            {
+                "productName": "7UP",
+                "productImage":"assets/images/7UP.png"
+            },
+            {
+"productName": "Pepsi",
+"productImage":"assets/images/Pepsi.png"
+            },
+            {
+"productName": "Sprite",
+"productImage":"assets/images/Sprite.png"
+            },
+
+            {
+                "productName": "Mirinda",
+                "productImage":"assets/images/Mirinda.png"
+            },
+            {
+"productName": "Mountain Dew",
+"productImage":"assets/images/Mountain Dew.png"
+            },
+            {
+        "productName": "Roar",
+        "productImage":"assets/images/Roar.webp"
+            },
+            {
+                "productName": "Cappy",
+                "productImage":"assets/images/Cappy.png"
+            },
+            {
+                "productName": "Teem",
+                "productImage":"assets/images/teem colddrink.png"
+            }
+        ]
+    },
+    {
+        "category": "Chocolates & Spreads",
+        "Alternatives":[
+            {
+                "alternativeName": "Youngs Chocolate Spread",
+                "alternativeImage":"assets/images/Youngs Chocolate Spread.png"
+            },
+            {
+                "alternativeName": "Candyland Now",
+                "alternativeImage":"assets/images/Candyland Now.png"
+            },
+            {
+                "alternativeName": "Candyland Paradise",
+                "alternativeImage":"assets/images/Candyland Paradise.png"
+            },
+            {
+                "alternativeName": "Candyland Sonnet",
+                "alternativeImage":"assets/images/Candyland Sonnet.png"
+            },
+            {
+                "alternativeName": "Candyland Novella",
+                "alternativeImage":"assets/images/Candyland Novella.png"
+            },
+            {
+                "alternativeName": "You",
+                "alternativeImage":"assets/images/You.png"
+            }
+        ],
+        "image": "assets/images/chocolate&spreads.png",
+        "products": [
+            {
+        "productName": "Nutella",
+        "productImage":"assets/images/Nutella.png"        
+            },
+            {
+"productName": "Kitkat",
+"productImage":"assets/images/Kitkat.png"
+            },
+            {
+"productName": "Mars",
+"productImage":"assets/images/Mars.png"
+            },
+            {
+"productName": "Twix",
+"productImage":"assets/images/Twix.png"
+            },
+            {
+"productName": "Snickers",
+"productImage":"assets/images/Snickers.png"
+            },
+            {
+"productName": "Toblerone",
+"productImage":"assets/images/Toblerone.png"   
+            },
+            {
+"productName": "Hershey's",
+"productImage":"assets/images/Hersheys.png"
+            },
+            {
+"productName": "Milka",
+"productImage":"assets/images/Milka.png"   
+            },
+            {
+"productName": "Ferrerorocher",
+"productImage":"assets/images/Ferrerorocher.png"    
+            },
+            {
+"productName": "Beuno",
+"productImage":"assets/images/Beuno.png"
+            },
+            {
+"productName": "Cadbury",
+"productImage":"assets/images/Cadbury.png"
+            }
+        ]
+    },
+    {
+        "category": "Icecream",
+        "Alternatives":[
+            {
+                "alternativeName": "HICO",
+                "alternativeImage":"assets/images/HICO.png"
+            },
+            {
+                "alternativeName": "Lush Crush",
+                "alternativeImage":"assets/images/Lush Crush.png"
+            },
+            {
+                "alternativeName": "Popbar",
+                "alternativeImage":"assets/images/Popbar.png"
+            },
+            {
+                "alternativeName": "Popcycle",
+                "alternativeImage":"assets/images/Popcycle.png"
+            },
+            {
+                "alternativeName": "Jalal Sons Icecream",
+                "alternativeImage":"assets/images/Jalal Sons Icecream.png"
+            },
+            {
+                "alternativeName": "Kitchen Cuisine Icecream",
+                "alternativeImage":"assets/images/Kitchen Cuisine Icecream.png"
+            },
+            {
+                "alternativeName": "Local shop Ice cream(Peshawari)",
+                "alternativeImage":"assets/images/Local shop Ice cream(Peshawari).png"
+            },
+            {
+                "alternativeName": "Igloo Icecream",
+                "alternativeImage":"assets/images/Igloo Icecream.png"
+            },
+            {
+                "alternativeName": "Omore Ice cream",
+                "alternativeImage":"assets/images/Omore Ice cream.png"
+            }
+        ],
+        "image": "assets/images/Icecream.png",
+        "products": [
+            {
+"productName": "Walls",
+"productImage":"assets/images/Walls.png"
+            }
+            
+        ]
+    },
+    {
+        "category": "Tea & Coffee",
+        "image": "assets/images/Tea & Coffee.png",
+        "Alternatives":[
+            {
+                "alternativeName": "Vital Tea",
+                "alternativeImage":"assets/images/Vital Tea.png"
+            },
+            {
+                "alternativeName": "National Tea",
+                "alternativeImage":"assets/images/National Tea.png"
+            },
+            {
+                "alternativeName": "ITC",
+                "alternativeImage":"assets/images/ITC.png"
+            },
+            {
+                "alternativeName": "Tapal",
+                "alternativeImage":"assets/images/Tapal.png"
+            },
+            {
+                "alternativeName": "RAAZ Coffee Roasters",
+                "alternativeImage":"assets/images/RAAZ Coffee Roasters.png"
+            }
+        ],
+        "products": [
+            {
+"productName": "Lipton",
+"productImage":"assets/images/Lipton.png"
+            },
+            {
+"productName": "Nestle Everyday Tea",
+"productImage":"assets/images/Nestle Everyday Tea.png"
+            },
+            {
+"productName": "Nescafe Coffee",
+"productImage":"assets/images/Nescafe Coffee.png"
+            }
+        ]
+    },
+    {
+        "category": "Juices",
+        "Alternatives":[
+            {
+                "alternativeName": "Fresher",
+                "alternativeImage":"assets/images/Fresher.png"
+            },
+            {
+                "alternativeName": "Fruitien",
+                "alternativeImage":"assets/images/Fruitien.png"
+            },
+            {
+                "alternativeName": "Maaza",
+                "alternativeImage":"assets/images/Maaza.png"
+            },
+            {
+                "alternativeName": "Vivo",
+                "alternativeImage":"assets/images/Vivo.png"
+            },
+            {
+                "alternativeName": "Sunsip LimoPani",
+                "alternativeImage":"assets/images/Sunsip LimoPani.png"
+            },
+            {
+                "alternativeName": "Rooh Afza",
+                "alternativeImage":"assets/images/Rooh Afza.png"
+            },
+            {
+                "alternativeName": "Jami Shireen",
+                "alternativeImage":"assets/images/Jami Shireen.png"
+            }
+        ],
+        "image": "assets/images/Juices.png",
+        "products": [
+            {
+"productName": "Nestle Fruita Vitals",
+"productImage":"assets/images/Nestle Fruita Vitals.jpg"
+            },
+            {
+"productName": "Nestle Nesfruita",
+"productImage":"assets/images/Nestle Nesfruita.jpg"
+            },
+            {
+"productName": "Tang",
+"productImage":"assets/images/Tang.png"
+            },
+            {
+"productName": "Slice",
+"productImage":"assets/images/Slice.png"
+            }
+        ]
+    },
+    {
+        "category": "Flavoured Drinks",
+        "Alternatives":[
+            {
+                "alternativeName": "Dayfresh",
+                "alternativeImage":"assets/images/Dayfresh.png"
+            },
+            {
+                "alternativeName": "Shakarganj",
+                "alternativeImage":"assets/images/Shakarganj.png"
+            },
+            {
+                "alternativeName": "Pakola",
+                "alternativeImage":"assets/images/Pakola.png"   
+            }
+        ],
+        "image": "assets/images/Flavoured drinks.png",
+        "products": [
+            {
+"productName": "Milo",
+"productImage":"assets/images/Milo.png"
+            },
+            {
+"productName": "Nesquik",
+"productImage":"assets/images/Nesquik.png"
+            }
+            
+        ]
+    },
+    {
+        "category": "Dairy Products",
+        "Alternatives":[
+            {
+                "alternativeName": "Prema",
+                "alternativeImage":"assets/images/Prema.png"
+            },
+            {
+                "alternativeName": "Anhaar",
+                "alternativeImage":"assets/images/Anhaar.png"
+            },
+            {
+                "alternativeName": "Dayfresh",
+                "alternativeImage":"assets/images/Dayfresh.png"
+            },
+            {
+                "alternativeName": "Haleeb",
+                "alternativeImage":"assets/images/Haleeb.png"
+            },
+            {
+                "alternativeName": "Good Milk",
+                "alternativeImage":"assets/images/Good Milk.png"
+            },
+            {
+                "alternativeName": "Adams",
+                "alternativeImage":"assets/images/Adams.png"
+            },
+            {
+                "alternativeName": "Nurpur",
+                "alternativeImage":"assets/images/Nurpur.png"
+            },
+            {
+                "alternativeName": "Tarang",
+                "alternativeImage":"assets/images/Tarang.png"
+            },
+            {
+                "alternativeName": "Prema Yogurt",
+                "alternativeImage":"assets/images/Prema Yogurt.png"
+            },
+            {
+                "alternativeName": "Gourmet Yogurt",
+                "alternativeImage":"assets/images/Gourmet Yogurt.png"
+            },
+            {
+                "alternativeName": "Adams Cheese",
+                "alternativeImage":"assets/images/Adams Cheese.png"
+            }
+        ],
+        "image": "assets/images/dairy products.png",
+        "products": [
+            {
+"productName": "Nestle Milkpak",
+"productImage":"assets/images/Nestle Milkpak.png"
+            },
+            {
+"productName": "Nestle Everyday",
+"productImage":"assets/images/Nestle Everyday.png"
+            },
+            {
+"productName": "Nestle Yogurt",
+"productImage":"assets/images/Nestle Yogurt.jpg"
+            },
+            {
+"productName": "Nesvita",
+"productImage":"assets/images/Nesvita.png"
+            }
+            
+        ]
+    },
+    {
+        "category": "Water",
+        "Alternatives":[
+            {
+                "alternativeName": "Gourmet Water",
+                "alternativeImage":"assets/images/Gourmet.png"
+            },
+            {
+                "alternativeName": "Sufi Water",
+                "alternativeImage":"assets/images/Sufi.png"
+            },
+            {
+                "alternativeName": "Pakola Water",
+                "alternativeImage":"assets/images/Pakola Water.png"
+            },
+            {
+                "alternativeName": "Masaf Water",
+                "alternativeImage":"assets/images/Masaf Water.png"
+            },
+            {
+                "alternativeName": "Springley Water",
+                "alternativeImage":"assets/images/Springley Water.png"
+            },
+            {
+                "alternativeName": "Al Habib Water",
+                "alternativeImage":"assets/images/Al Habib Water.png"
+            },
+            {  
+                "alternativeName": "Al-Kafeel of Hasan Industries Water",
+                "alternativeImage":"assets/images/Al-Kafeel of Hasan Industries Water.png"
+            }
+        ],
+        "image": "assets/images/water.png",
+        "products": [
+            {
+"productName": "Nestle",
+"productImage":"assets/images/Nestle.png"
+            },
+            {
+"productName": "Aquafina",
+"productImage":"assets/images/Aquafina.png"
+            },
+            {
+"productName": "Dasani",
+"productImage":"assets/images/Dasani.png"
+            }
+        ]
+    },
+    {
+        "category": "Cereals",
+        "Alternatives":[
+            {
+                "alternativeName": "Nutri Lov Crunchy Cereal",
+                "alternativeImage":"assets/images/Nutri Lov Crunchy Cereal.png"
+            },
+            {
+                "alternativeName": "Fauji Cornflakes",
+                "alternativeImage":"assets/images/Fauji Cornflakes.png"
+            }
+        ],
+        "image": "assets/images/cereals.png",
+        "products": [
+            {
+"productName": "Nestle KoKo Krunch",
+"productImage":"assets/images/Nestle KoKo Krunch.png"
+            },
+            {
+"productName": "Kelloggs",
+"productImage":"assets/images/Kelloggs.png"
+            }
+            
+        ]
+    },
+    {
+        "category": "Snacks",
+        "Alternatives":[
+            {
+                "alternativeName": "Super Crisp",
+                "alternativeImage":"assets/images/Super Crisp.png"
+            },
+            {
+                "alternativeName": "Oye Hoye",
+                "alternativeImage":"assets/images/Oye Hoye.png"
+            },
+            {
+                "alternativeName": "Kurleez",
+                "alternativeImage":"assets/images/Kurleez.png"
+            },
+            {
+                "alternativeName": "Knock Out",
+                "alternativeImage":"assets/images/Knock Out.png"
+            },
+            {
+                "alternativeName": "Kolson Snacks",
+                "alternativeImage":"assets/images/Kolson Snacks.png"
+            }
+        ],
+        "image": "assets/images/snacks.png",
+        "products": [
+            {
+"productName": "Lays",
+"productImage":"assets/images/Lays.png"   
+            },
+{
+    "productName": "Cheetos",
+    "productImage":"assets/images/Cheetos.png"
+},
+{
+"productName": "Kurkure",
+"productImage":"assets/images/Kurkure.png"
+},
+    {
+"productName": "Pringles",
+"productImage":"assets/images/Pringles.png"
+    },
+    {
+"productName": "Doritos",
+"productImage":"assets/images/Doritos.png"
+    },
+    {
+"productName": "Munchies",
+"productImage":"assets/images/Munchies.png"
+    }
+        ]
+    },
+    {
+        "category": "Biscuits",
+        "Alternatives":[
+            {
+                "alternativeName": "Bisconni",
+                "alternativeImage":"assets/images/Bisconni.png"
+            },
+            {
+                "alternativeName": "Whistlez",
+                "alternativeImage":"assets/images/Whistlez.png"
+            },
+            {
+                "alternativeName": "Innovative",
+                "alternativeImage":"assets/images/Innovative.png"
+            },
+            {
+                "alternativeName": "EBM (English Biscuit Manufacturer)",
+                "alternativeImage":"assets/images/EBM (English Biscuit Manufacturer).png"
+            }
+        ],
+        "image": "assets/images/biscuits.png",
+        "products": [
+            {
+"productName": "LU",
+"productImage":"assets/images/LU.png"
+            }
+        ]
+    },
+    {
+        "category": "Noodles & Pasta",
+        "Alternatives":[
+            {
+                "alternativeName": "Kolson Pasta",
+                "alternativeImage":"assets/images/Kolson Pasta.png"
+            },
+            {
+            "alternativeName": "National Pasta",
+            "alternativeImage":"assets/images/National Pasta.png"    
+            },
+            {
+                "alternativeName": "Shoop by Shan",
+                "alternativeImage":"assets/images/Shoop by Shan.png"
+            }
+        ],
+        "image": "assets/images/Noodles and Pasta.png",
+        "products": [
+            {
+"productName": "Maggi",
+"productImage":"assets/images/Maggi.png"
+            },
+            {
+"productName": "Knorr",
+"productImage":"assets/images/Knorr.png"
+            }
+        ]
+    },
+    {
+        "category": "Iced Tea",
+        "Alternatives":[
+            {
+                "alternativeName": "Tapal Ice Tea",
+                "alternativeImage":"assets/images/Tapal Ice Tea.png"
+            }
+        ],
+        "image": "assets/images/Iced tea.png",
+        "products": [
+            {
+"productName": "Nestea",
+"productImage":"assets/images/Nestea.png"
+            },
+            {
+"productName": "Fuzetea",
+"productImage":"assets/images/Fuzetea.png"
+            }
+        ]
+    },
+    {
+        "category": "Shampoos",
+        "Alternatives":[
+            {
+                "alternativeName": "Saeed Ghani Shampoo",
+                "alternativeImage":"assets/images/Saeed Ghani Shampoo.png"
+            },
+            {
+                "alternativeName": "CoNatural Shampoo",
+                "alternativeImage":"assets/images/CoNatural Shampoo.png"
+            },
+            {
+                "alternativeName": "BioAmla Shampoo",
+                "alternativeImage":"assets/images/BioAmla Shampoo.png"
+            },
+            {
+                "alternativeName": "Jasmine Organics Shampoo bar",
+                "alternativeImage":"assets/images/Jasmine Organics Shampoo bar.png"
+            }
+        ],
+        "image": "assets/images/Shampoo.png",
+        "products": [
+            {
+"productName": "Dove",
+"productImage":"assets/images/Dove.png"
+            },
+            {
+"productName": "Sunsilk",
+"productImage":"assets/images/Sunsilk.png"
+            },
+            {
+"productName": "Pantene",
+"productImage":"assets/images/Pantene.png"
+            },
+            {
+"productName": "Head & Shoulders",
+"productImage":"assets/images/Head & Shoulders.png"
+            },
+            {
+"productName": "Clear",
+"productImage":"assets/images/Clear.png"
+            },
+            {
+"productName": "Tresemme",
+"productImage":"assets/images/Tresemme.png"
+            }
+        ]
+    },
+    {
+        "category": "Toothpaste",
+        "Alternatives":[
+            {
+                "alternativeName": "Medicam",
+                "alternativeImage":"assets/images/Medicam.png"
+            },
+            {
+                "alternativeName": "Dentonic",
+                "alternativeImage":"assets/images/Dentonic.png"
+            },
+            {
+                "alternativeName": "Jasmine Organics Herbal Tooth Powder",
+                "alternativeImage":"assets/images/Jasmine Organics Herbal Tooth Powder.png"
+            }
+        ],
+        "image": "assets/images/Toothpaste.png",
+        "products": [
+            {
+"productName": "Colgate",
+"productImage":"assets/images/Colgate.png"
+            },
+            {
+"productName": "Sensodyne",
+"productImage":"assets/images/Sensodyne.png"
+            }
+        ]
+    },
+    {
+        "category": "Body Care",
+        "Alternatives":[
+            {
+                "alternativeName": "Care soap",
+                "alternativeImage":"assets/images/Care soap.png"
+            },
+            {
+                "alternativeName": "Vital Soap",
+                "alternativeImage":"assets/images/Vital Soap.png"
+            },
+            {
+                "alternativeName": "Nisa Hair Removal Cream",
+                "alternativeImage":"assets/images/Nisa Hair Removal Cream.png"
+            },
+            {
+                "alternativeName": "Hiba Hair Removal",
+                "alternativeImage":"assets/images/Hiba Hair Removal.png"
+            },
+            {
+                "alternativeName": "Treet",
+                "alternativeImage":"assets/images/Treet.png"
+            },
+            {
+                "alternativeName": "Saeed Ghani Lotion",
+                "alternativeImage":"assets/images/Saeed Ghani Lotion.png"
+            },
+            {
+                "alternativeName": "Jasmine Organics moisturiser",
+                "alternativeImage":"assets/images/Jasmine Organics moisturiser.png"
+            }
+        ],
+        "image": "assets/images/Body Care.png",
+        "products": [
+            {
+"productName": "Lux",
+"productImage":"assets/images/Lux.png"
+            },
+            {
+"productName": "Dove",
+"productImage":"assets/images/Dove Soap.png"
+            },
+            {
+"productName": "Lifebuoy",
+"productImage":"assets/images/Lifebuoy.png"
+            },
+            {
+"productName": "Ponds",
+"productImage":"assets/images/Ponds.png" 
+            },
+            {
+"productName": "Fair & Glow",
+"productImage":"assets/images/Fair & Glow.png"
+            },
+            {
+"productName": "Gilette",
+"productImage":"assets/images/Gilette.png"
+            },
+            {
+"productName": "Veet",
+"productImage":"assets/images/Veet.png"   
+            }
+        ]
+    },
+    {
+        "category": "Sanitary Napkins",
+        "Alternatives":[
+            {
+                "alternativeName": "Butterfly",
+                "alternativeImage":"assets/images/Butterfly.png"
+            },
+            {
+                "alternativeName": "Mother Comfort",
+                "alternativeImage":"assets/images/Mother Comfort.png"
+            },
+            {
+                "alternativeName": "Trust",
+                "alternativeImage":"assets/images/Trust.png"
+            }
+        ],
+        "image": "assets/images/Sanitary Napkins.png",
+        "products": [
+            {
+"productName": "Always",
+"productImage":"assets/images/Always.png"
+            }
+        ]
+    },
+    {
+        "category": "Baby Care",
+        "Alternatives":[
+            {
+                "alternativeName": "Sheild Babycare",
+                "alternativeImage":"assets/images/Sheild Babycare.png"
+            },
+            {
+                "alternativeName": "Leo Diapers",
+                "alternativeImage":"assets/images/Leo Diapers.png"
+            }
+        ],
+        "image": "assets/images/Baby Care.png",
+        "products": [
+            {
+"productName": "Johnsons",
+"productImage":"assets/images/Johnsons.png"
+            },
+            {
+"productName": "Pampers",
+"productImage":"assets/images/Pampers.png"
+            },
+            {
+"productName": "Huggies",
+"productImage":"assets/images/Huggies.png"
+            }
+        ]
+    },
+    {
+        "category": "Detergents",
+        "Alternatives":[
+            {
+                "alternativeName": "Sufi Detergent",
+                "alternativeImage":"assets/images/Sufi Detergent.png"
+            },
+            {
+                "alternativeName": "Sufi Liquid Dishsoap",
+                "alternativeImage":"assets/images/Sufi Liquid Dishsoap.png"
+            },
+            {
+                "alternativeName": "Alclean all purpose cleaner",
+                "alternativeImage":"assets/images/Alclean all purpose cleaner.png"
+            },
+            {
+                "alternativeName": "Almas dishwasher",
+                "alternativeImage": "assets/images/Almas dishwasher.png"
+            }
+        ],
+        "image": "assets/images/Detergents.png",
+        "products": [
+            {
+"productName": "Surf Excel",
+"productImage":"assets/images/Surf Excel.png"
+            },
+            {
+"productName": "Ariel",
+"productImage":"assets/images/Ariel.png"
+            },
+            {
+"productName": "Bonus",
+"productImage":"assets/images/Bonus.png"
+            },
+            {
+"productName": "Bright",
+"productImage":"assets/images/Bright.png"
+            },
+            {
+"productName": "Express",
+"productImage":"assets/images/Express.png"
+            },
+            {
+"productName": "Vim",
+"productImage":"assets/images/Vim.png"
+            },
+            {
+"productName": "Max",
+"productImage":"assets/images/Max.png"
+            },
+            {
+"productName": "Sunlight",
+"productImage":"assets/images/Sunlight.png"
+            }
+        ]
+    }
+]
