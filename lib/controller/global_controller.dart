@@ -32,31 +32,34 @@ class GlobalController extends GetxController {
   }
 
   // Fetch categories from remote JSON file hosted on GitHub
+
   void fetchCategories() async {
     try {
-      final response = await http.get(Uri.parse(
-          'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/data.json'));
+      final prefs = await SharedPreferences.getInstance();
+      final cachedData = prefs.getString('categories_data');
 
-      if (response.statusCode == 200) {
-        final List<dynamic> data = json.decode(response.body);
-
+      if (cachedData != null) {
+        final List<dynamic> data = json.decode(cachedData);
         categories.value = data
             .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
             .toList();
         filteredCategories.value = categories;
       } else {
-        Get.snackbar(
-          'Error',
-          'Failed to load data from GitHub.',
-          snackPosition: SnackPosition.BOTTOM,
-        );
+        final response = await http.get(Uri.parse(
+            'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/data.json'));
+        if (response.statusCode == 200) {
+          final List<dynamic> data = json.decode(response.body);
+          prefs.setString('categories_data', response.body); // Cache data
+          categories.value = data
+              .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
+              .toList();
+          filteredCategories.value = categories;
+        } else {
+          // Handle error
+        }
       }
     } catch (e) {
-      Get.snackbar(
-        'Error',
-        'Failed to load data: $e',
-        snackPosition: SnackPosition.BOTTOM,
-      );
+      // Handle exception
     } finally {
       isLoading.value = false;
     }

@@ -3,6 +3,7 @@ import 'package:boycott_app/view/products_list_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shimmer/shimmer.dart';
 
 class HomeScreen extends StatelessWidget {
   final GlobalController gc = Get.put(GlobalController());
@@ -26,6 +27,78 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       body: Obx(() {
+        if (gc.isLoading.value) {
+          return CustomScrollView(
+            slivers: [
+              SliverAppBar(
+                floating: true,
+                pinned: true,
+                snap: false,
+                title: const Text(
+                  'Categories',
+                  style: TextStyle(fontFamily: 'HindFont', color: Colors.white),
+                ),
+                centerTitle: true,
+                flexibleSpace: Container(
+                  decoration: const BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [
+                        Color(0XFFFFFFFF),
+                        Color(0XFF000000),
+                        Color(0XFFE4312b),
+                        Color(0XFF149954),
+                      ],
+                    ),
+                  ),
+                ),
+                bottom: PreferredSize(
+                  preferredSize: Size.fromHeight(Get.height * 0.09),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: TextField(
+                      controller: gc.categorySearchController,
+                      decoration: InputDecoration(
+                        hintText: 'Search Categories',
+                        prefixIcon: const Icon(CupertinoIcons.search,
+                            color: Color(0XFF149954)),
+                        filled: true,
+                        fillColor: Colors.white.withOpacity(0.5),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(30.0),
+                          borderSide: BorderSide.none,
+                        ),
+                      ),
+                      onChanged: (value) => gc.filterCategories(),
+                    ),
+                  ),
+                ),
+              ),
+              SliverList(
+                delegate: SliverChildBuilderDelegate(
+                  (context, index) {
+                    return Shimmer.fromColors(
+                      baseColor: Colors.grey.shade300,
+                      highlightColor: Colors.grey.shade100,
+                      child: ListTile(
+                        leading: CircleAvatar(
+                          backgroundColor: Colors.grey.shade300,
+                          radius: 30,
+                        ),
+                        title: Container(
+                          decoration: BoxDecoration(
+                              color: Colors.grey.shade300,
+                              borderRadius: BorderRadius.circular(10)),
+                          height: Get.height * 0.06,
+                        ),
+                      ),
+                    );
+                  },
+                  childCount: 10, // Number of shimmer placeholders
+                ),
+              ),
+            ],
+          );
+        }
         return CustomScrollView(
           slivers: [
             SliverAppBar(
