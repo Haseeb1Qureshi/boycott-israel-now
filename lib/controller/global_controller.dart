@@ -35,31 +35,29 @@ class GlobalController extends GetxController {
 
   void fetchCategories() async {
     try {
-      final prefs = await SharedPreferences.getInstance();
-      final cachedData = prefs.getString('categories_data');
+      final response = await http.get(Uri.parse(
+          'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/data.json'));
 
-      if (cachedData != null) {
-        final List<dynamic> data = json.decode(cachedData);
+      if (response.statusCode == 200) {
+        final List<dynamic> data = json.decode(response.body);
+
         categories.value = data
             .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
             .toList();
         filteredCategories.value = categories;
       } else {
-        final response = await http.get(Uri.parse(
-            'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/data.json'));
-        if (response.statusCode == 200) {
-          final List<dynamic> data = json.decode(response.body);
-          prefs.setString('categories_data', response.body); // Cache data
-          categories.value = data
-              .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
-              .toList();
-          filteredCategories.value = categories;
-        } else {
-          // Handle error
-        }
+        Get.snackbar(
+          'Error',
+          'Failed to load data from GitHub.',
+          snackPosition: SnackPosition.BOTTOM,
+        );
       }
     } catch (e) {
-      // Handle exception
+      Get.snackbar(
+        'Error',
+        'Failed to load data: $e',
+        snackPosition: SnackPosition.BOTTOM,
+      );
     } finally {
       isLoading.value = false;
     }
