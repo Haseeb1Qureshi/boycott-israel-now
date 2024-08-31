@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:http/http.dart' as http;
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 
 class GlobalController extends GetxController {
@@ -30,24 +31,41 @@ class GlobalController extends GetxController {
     });
   }
 
+  // Fetch categories from remote JSON file hosted on GitHub
   void fetchCategories() async {
-    final String response =
-        await rootBundle.loadString('assets/json/data.json');
-    final List<dynamic> data = json.decode(response);
+    try {
+      final response = await http.get(Uri.parse(
+          'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/data.json'));
 
-    categories.value = data
-        .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
-        .toList();
-    filteredCategories.value = categories;
-    isLoading.value = false;
+      if (response.statusCode == 200) {
+        final List<dynamic> data = json.decode(response.body);
+
+        categories.value = data
+            .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
+            .toList();
+        filteredCategories.value = categories;
+      } else {
+        Get.snackbar(
+          'Error',
+          'Failed to load data from GitHub.',
+          snackPosition: SnackPosition.BOTTOM,
+        );
+      }
+    } catch (e) {
+      Get.snackbar(
+        'Error',
+        'Failed to load data: $e',
+        snackPosition: SnackPosition.BOTTOM,
+      );
+    } finally {
+      isLoading.value = false;
+    }
   }
 
   void filterCategories() {
     if (categorySearchController.text.isEmpty) {
-      // If search text is empty, show all categories
       filteredCategories.value = categories;
     } else {
-      // Filter categories based on the search text
       filteredCategories.value = categories
           .where((category) => category.category
               .toLowerCase()
@@ -91,10 +109,8 @@ class GlobalController extends GetxController {
           '#149954', 'Cancel', true, ScanMode.BARCODE);
 
       if (scannedBarcode != '-1') {
-        // Check if the scan was successful
         barcode.value = scannedBarcode;
 
-        // Show the scanned barcode in a dialog box
         Get.dialog(
           AlertDialog(
             title: const Text(
@@ -133,8 +149,7 @@ class GlobalController extends GetxController {
                       ),
                     ),
                     snackPosition: SnackPosition.BOTTOM,
-                    backgroundColor: const Color(0XFF149954).withOpacity(
-                        0.7), // Green color with opacity for a translucent effect
+                    backgroundColor: const Color(0XFF149954).withOpacity(0.7),
                     borderRadius: 20,
                     margin: const EdgeInsets.all(10),
                     colorText: Colors.white,
@@ -145,10 +160,9 @@ class GlobalController extends GetxController {
                     snackStyle: SnackStyle.FLOATING,
                     boxShadows: [
                       BoxShadow(
-                        color: Colors.black
-                            .withOpacity(0.3), // Subtle shadow for depth
-                        blurRadius: 10, // Blurry effect
-                        offset: const Offset(0, 5), // Shadow positioning
+                        color: Colors.black.withOpacity(0.3),
+                        blurRadius: 10,
+                        offset: const Offset(0, 5),
                       ),
                     ],
                     isDismissible: true,
