@@ -48,7 +48,7 @@ class GlobalController extends GetxController {
         Get.snackbar(
           'Error',
           'Failed to load data from GitHub.',
-          snackPosition: SnackPosition.BOTTOM,
+          snackPosition: SnackPosition.TOP,
         );
       }
     } catch (e) {
