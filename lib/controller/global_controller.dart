@@ -36,7 +36,7 @@ class GlobalController extends GetxController {
   void fetchCategories() async {
     try {
       final response = await http.get(Uri.parse(
-          'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/data.json'));
+          'https://raw.githubusercontent.com/Haseeb1Qureshi/boycott-israel-now/main/assets/json/data.json'));
 
       if (response.statusCode == 200) {
         final List<dynamic> data = json.decode(response.body);
