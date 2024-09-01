@@ -60,6 +60,7 @@ class GlobalController extends GetxController {
         );
       }
     } catch (e) {
+      print("failed to load data: " '$e');
       Get.snackbar(
         'Error',
         'Failed to load data: $e',
