@@ -40,7 +40,10 @@
             {
 "productName": "Olay",
 "productImage":"assets/images/Olay.png"
-            }
+            },
+            "productName": "OlaysecondEdition",
+"productImage":"assets/images/Olay.png"
+            },
         ]
     },
     {
