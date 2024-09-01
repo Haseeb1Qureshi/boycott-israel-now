@@ -45,7 +45,7 @@ class GlobalController extends GetxController {
             .map((item) => Categoryy.fromJson(item as Map<String, dynamic>))
             .toList();
         filteredCategories.value = categories;
-        Get.snackbar('Successfully', 'Data checked Successfully');
+        Get.snackbar('Successfully', 'Data fetching Successfully');
       } else {
         Get.snackbar(
           'Error',
